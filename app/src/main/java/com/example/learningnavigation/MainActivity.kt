@@ -2,7 +2,6 @@ package com.example.learningnavigation
 
 import android.os.Bundle
 import android.view.Menu
-import com.google.android.material.snackbar.Snackbar
 import com.google.android.material.navigation.NavigationView
 import androidx.navigation.findNavController
 import androidx.navigation.ui.AppBarConfiguration
@@ -37,8 +36,8 @@ class MainActivity : AppCompatActivity() {
         // menu should be considered as top level destinations.
         appBarConfiguration = AppBarConfiguration(
             setOf(
-                R.id.nav_home, R.id.nav_gallery, R.id.nav_slideshow,
-                R.id.nav_custom1, R.id.nav_greeting // from the activity_main_drawer menu
+                R.id.nav_home, R.id.nav_calendar, R.id.nav_chores,
+                R.id.nav_calendar, R.id.nav_chores // from the activity_main_drawer menu
             ), drawerLayout
         )
         setupActionBarWithNavController(navController, appBarConfiguration)

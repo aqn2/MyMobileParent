@@ -10,20 +10,12 @@
             android:icon="@android:drawable/ic_dialog_map"
             android:title="@string/menu_home" />
         <item
-            android:id="@+id/nav_gallery"
-            android:icon="@drawable/ic_menu_gallery"
-            android:title="@string/menu_gallery" />
+            android:id="@+id/nav_calendar"
+            android:icon="@android:drawable/ic_menu_day"
+            android:title="Calendar" />
         <item
-            android:id="@+id/nav_slideshow"
-            android:icon="@drawable/ic_menu_slideshow"
-            android:title="@string/menu_slideshow" />
-        <item
-            android:id="@+id/nav_custom1"
-            android:icon="@android:drawable/btn_star"
-            android:title="Custom1" />
-        <item
-            android:id="@+id/nav_greeting"
-            android:icon="@drawable/ic_baseline_back_hand_24"
-            android:title="Greeting" />
+            android:id="@+id/nav_chores"
+            android:icon="@android:drawable/ic_popup_disk_full"
+            android:title="Chores" />
     </group>
 </menu>
