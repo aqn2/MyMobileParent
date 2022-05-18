@@ -17,7 +17,7 @@ import com.example.learningnavigation.databinding.FragmentCustom1Binding
 import com.example.learningnavigation.databinding.FragmentSlideshowBinding
 import java.util.Calendar.getInstance
 
-class Custom1Fragment : Fragment() {
+class InstructionFragment : Fragment() {
 
     companion object {
         val BUNDLE_GALLERY_INFO = "gallery info"

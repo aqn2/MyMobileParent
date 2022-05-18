@@ -6,7 +6,6 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
 import androidx.fragment.app.Fragment
-import com.example.learningnavigation.databinding.FragmentGalleryBinding
 import com.example.learningnavigation.databinding.FragmentGreeting2Binding
 
 class Greeting2Fragment : Fragment() {
@@ -34,7 +33,7 @@ class Greeting2Fragment : Fragment() {
         // to receive information from a bundle, use the built in variable
         // arguments
 
-        val message = arguments?.getString(GreetingFragment.BUNDLE_GREETING2_INFO) ?: ""
+        val message = arguments?.getString(PersonalFragment.BUNDLE_GREETING2_INFO) ?: ""
         textView.text = "This is the Gallery Fragment\n$message"
 
         return root

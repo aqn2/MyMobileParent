@@ -8,10 +8,9 @@ import android.widget.TextView
 import androidx.fragment.app.Fragment
 import androidx.navigation.findNavController
 import com.example.learningnavigation.R
-import com.example.learningnavigation.databinding.FragmentGalleryBinding
 import com.example.learningnavigation.databinding.FragmentGreetingBinding
 
-class GreetingFragment : Fragment() {
+class PersonalFragment : Fragment() {
 
     companion object {
         val BUNDLE_GREETING2_INFO = "greeting2 info"
@@ -42,7 +41,7 @@ class GreetingFragment : Fragment() {
             // to send information between fragments, we use a bundle instead of putting
             // extras into an intent.
             val bundle = Bundle()
-            bundle.putString(GreetingFragment.BUNDLE_GREETING2_INFO, "Hello, ${binding.editTextTextPersonName?.text ?: "name"}.")
+            bundle.putString(PersonalFragment.BUNDLE_GREETING2_INFO, "Hello, ${binding.editTextTextPersonName?.text ?: "name"}.")
             // with a bundle, just add it as a parameter
             root.findNavController().navigate(R.id.action_nav_greeting_to_nav_greeting2, bundle)
         }

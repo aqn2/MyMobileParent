@@ -6,11 +6,8 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
 import androidx.fragment.app.Fragment
-import androidx.lifecycle.Observer
-import androidx.lifecycle.ViewModelProvider
-import com.example.learningnavigation.R
 import com.example.learningnavigation.databinding.FragmentGalleryBinding
-import com.example.learningnavigation.ui.Custom1Fragment
+import com.example.learningnavigation.ui.InstructionFragment
 
 class GalleryFragment : Fragment() {
 
@@ -37,7 +34,7 @@ class GalleryFragment : Fragment() {
         // to receive information from a bundle, use the built in variable
         // arguments
 
-        val message = arguments?.getString(Custom1Fragment.BUNDLE_GALLERY_INFO) ?: ""
+        val message = arguments?.getString(InstructionFragment.BUNDLE_GALLERY_INFO) ?: ""
         textView.text = "This is the Gallery Fragment\n$message"
 
         return root
