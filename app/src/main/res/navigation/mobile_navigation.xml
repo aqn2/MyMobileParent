@@ -8,41 +8,18 @@
     <fragment
         android:id="@+id/nav_chores"
         android:name="com.example.learningnavigation.ui.home.ChoresFragment"
-        android:label="@string/menu_home"
-        tools:layout="@layout/fragment_home" />
+        android:label="Chores"
+        tools:layout="@layout/fragment_chores" />
 
-    <fragment
-        android:id="@+id/nav_instructions"
-        android:name="com.example.learningnavigation.ui.gallery.GalleryFragment"
-        android:label="@string/menu_gallery"
-        tools:layout="@layout/fragment_gallery" />
-
-    <fragment
-        android:id="@+id/nav_personal"
-        android:name="com.example.learningnavigation.ui.slideshow.SlideshowFragment"
-        android:label="@string/menu_slideshow"
-        tools:layout="@layout/fragment_slideshow" />
     <fragment
         android:id="@+id/nav_instructions"
         android:name="com.example.learningnavigation.ui.InstructionFragment"
-        android:label="Custom1Fragment"
-        tools:layout="@layout/fragment_custom1">
-        <action
-            android:id="@+id/action_nav_custom1_to_nav_gallery"
-            app:destination="@id/nav_instructions" />
-    </fragment>
+        android:label="Instructions"
+        tools:layout="@layout/fragment_instructions" />
+
     <fragment
         android:id="@+id/nav_personal"
         android:name="com.example.learningnavigation.ui.PersonalFragment"
-        android:label="GreetingFragment"
-        tools:layout="@layout/fragment_greeting">
-        <action
-            android:id="@+id/action_nav_greeting_to_nav_greeting2"
-            app:destination="@id/nav_greeting2" />
-    </fragment>
-    <fragment
-        android:id="@+id/nav_greeting2"
-        android:name="com.example.learningnavigation.ui.Greeting2Fragment"
-        android:label="Greeting2Fragment"
-        tools:layout="@layout/fragment_greeting2"/>
+        android:label="Personal"
+        tools:layout="@layout/fragment_personal" />
 </navigation>
