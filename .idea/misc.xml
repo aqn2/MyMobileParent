@@ -13,11 +13,17 @@
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.2907608695652174" />
         <entry key="app/src/main/res/layout/app_bar_main.xml" value="0.2907608695652174" />
         <entry key="app/src/main/res/layout/content_main.xml" value="0.2907608695652174" />
+        <entry key="app/src/main/res/layout/fragment_chores.xml" value="0.33611111111111114" />
         <entry key="app/src/main/res/layout/fragment_custom1.xml" value="0.2848731884057971" />
         <entry key="app/src/main/res/layout/fragment_gallery.xml" value="0.2907608695652174" />
         <entry key="app/src/main/res/layout/fragment_greeting.xml" value="0.4003623188405797" />
         <entry key="app/src/main/res/layout/fragment_greeting2.xml" value="0.4003623188405797" />
         <entry key="app/src/main/res/layout/fragment_home.xml" value="0.2907608695652174" />
+        <entry key="app/src/main/res/layout/fragment_instructions.xml" value="0.33611111111111114" />
+        <entry key="app/src/main/res/layout/fragment_instructions_detail.xml" value="0.33611111111111114" />
+        <entry key="app/src/main/res/layout/fragment_instructions_item.xml" value="0.41770833333333335" />
+        <entry key="app/src/main/res/layout/fragment_instructions_list.xml" value="0.33611111111111114" />
+        <entry key="app/src/main/res/layout/fragment_personal.xml" value="0.33611111111111114" />
         <entry key="app/src/main/res/layout/fragment_slideshow.xml" value="0.2907608695652174" />
         <entry key="app/src/main/res/layout/nav_header_main.xml" value="0.55" />
         <entry key="app/src/main/res/menu/activity_main_drawer.xml" value="0.40989583333333335" />

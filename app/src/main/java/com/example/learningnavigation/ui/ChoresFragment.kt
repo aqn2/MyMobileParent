@@ -1,4 +1,4 @@
-package com.example.learningnavigation.ui.home
+package com.example.learningnavigation.ui
 
 import android.os.Bundle
 import android.view.LayoutInflater
